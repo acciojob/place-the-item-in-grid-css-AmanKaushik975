@@ -1,23 +1,17 @@
-//your code here
-
 .holder{
 	display:grid;
-	grid-template-rows:repeat(2,100px);
 	grid-template-columns:repeat(2,100px);
-	
-}
-.holder .item{
-	width:200px;
+	grid-template-rows:repeat(2,100px);
 }
 .item-1{
-		background-color:red;
+	background-color:blue;
 }
 .item-2{
-		background-color:blue;;
+	background-color:red;
 }
 .item-3{
-		background-color:pink;
+	background-color:aqua;
 }
 .item-4{
-		background-color:black;
+	background-color:green;
 }
